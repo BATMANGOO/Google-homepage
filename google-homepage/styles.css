@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+#nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 5px;
+  height: 40px;
+}
+
+#google-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.menu {
+  height: 30px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+}
+
+.gmail,
+.images {
+  position: relative;
+  bottom: 10px;
+}
+
+.link {
+  margin-right: 10px;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.gLFyf {
+  background-color: transparent;
+  width: 400px;
+  height: 40px;
+  border: none;
+}
+
+.google-search {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.search-bar {
+  border: 1px solid #dfe1e5;
+  width: auto;
+  padding: 0 5px 0 10px;
+  max-width: 584px;
+  border-radius: 30px;
+}
+
+.search-logo {
+  position: relative;
+  top: 5px;
+  height: 20px;
+}
+
+.search,
+.lucky {
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  padding: 5px 15px;
+  margin: 20px 5px 0 5px;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  text-align: center;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
